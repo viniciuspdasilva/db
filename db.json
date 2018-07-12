@@ -1,28 +1,40 @@
-{ 
-	"como-usar": [
-		{
-			"id": 1,
-			"descricao": "Não é necessário agendar"
-		},
-		{
-			"id": 2,
-			"descricao": "Válido de segunda a quinta das 12h as 23h"
-		},
-		{
-			"id": 3,
-			"descricao": "Não é necessário agendar"
-		},
-		{
-			"id": 4,
-			"descricao": "Necessário agendar com no mínimo 48 horas de antecedência"
-		},
-		{
-			"id": 5,
-			"descricao": "Válido de segunda a sábado das 12h as 23h. Necessário agendamento prévio"
-		},
-		{
-			"id": 6,
-			"descricao": "Não é necessário agendar. Sujeito à fila."
-		}
-	]
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Vinicius Pereira da Silva",
+      "cpf": "283.270.421-22",
+      "matricula": "E007078",
+      "password": "123456",
+      "roles": {
+        "grupo": 1,
+        "auth": 1,
+        "pages": 1
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Ester Raimunda Santos",
+      "cpf": "788.107.951-72",
+      "matricula": "SE01152",
+      "password": "789456",
+      "roles": {
+        "grupo": 2,
+        "auth": 1,
+        "pages": 2
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Carla Amanda Martins",
+      "cpf": "333.649.011-12",
+      "matricula": "SE01152",
+      "password": "789456",
+      "roles": {
+        "grupo": 2,
+        "auth": 1,
+        "pages": 2
+      }
+    }
+  ]
 }
